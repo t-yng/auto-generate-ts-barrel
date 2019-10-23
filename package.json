@@ -1,0 +1,23 @@
+{
+  "name": "barrelsby-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "chokidar './src/**/*.(ts|tsx)' -i './src/**/index.ts' -t 5000 -c 'yarn run generate-barrel' ",
+    "generate-barrel": "barrelsby -E -D -L -d ./src -l all"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.9",
+    "@types/react-dom": "^16.9.2",
+    "barrelsby": "^2.2.0",
+    "chokidar-cli": "^2.0.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.6.4",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
