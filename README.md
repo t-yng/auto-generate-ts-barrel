@@ -1,6 +1,6 @@
 # auto-generate-ts-barrel
 
-This is sample repository to generate typescript barrel automatically.
+This is sample repository to generate TypeScript barrel automatically.
 
 # Usage
 
