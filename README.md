@@ -4,12 +4,15 @@ This is sample repository to generate typescript barrel automatically.
 
 # Usage
 
+```
+$ yarn install
+$ yarn watch
+```
+
 When you will create or change .ts(x) files.  
 The `index.ts` file is created or updated as barrel in each directories.
 
 ```
-$ yarn install
-$ yarn watch
 $ touch src/components/Main.tsx
 ```
 
